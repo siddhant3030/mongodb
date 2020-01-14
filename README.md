@@ -82,3 +82,20 @@ BulkWriteResult({
 { "_id" : ObjectId("5e1d7dc039000a2de249180f"), "Name" : "Akash", "Age" : 23, "College" : "Ait" }
 > 
 
+
+# 4. Update a particular field with a key
+
+a) > db.things.update({"Name": "Akash"}, {"Name": "Akash", "Age": 23, "College": "Ait", "City": "Allahabad"})
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+
+> db.things.find()
+
+september" : "Ksarnataka" }515aabe777b7a6252"), "month" : "septembser", "company" : "iscicle", "numEmps" : 233, "category" : "desveloper", "city" : "basngalore", "state
+
+
+{ "_id" : ObjectId("5e1d7dc039000a2de249180e"), "Name" : "Karan", "Age" : 20 }
+
+{ "_id" : ObjectId("5e1d7dc039000a2de249180f"), "Name" : "Akash", "Age" : 23, "College" : "Ait", "City" : "Allahabad" }
+
+
+
