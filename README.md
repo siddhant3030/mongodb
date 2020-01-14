@@ -1,7 +1,7 @@
 # mongodb
 
-1. Read the file using a command "mongoimport -d mydb -c things --type csv --file TechCrunchcontinentalUSA.csv --headerline"
-and after creating a collection
+# 1. Read the file using a command "mongoimport -d mydb -c things --type csv --file TechCrunchcontinentalUSA.csv --headerline"
+# and after creating a collection
 
 db.things.find().pretty()
 
@@ -23,7 +23,7 @@ switched to db mydb
 
 { "_id" : ObjectId("5e1cd31cd615e6f1b1249588"), "Name" : "John Doe", "Address" : "555 Broadway Ave", "City" : "New York", "State" : "NY", "ZIP" : 10010 }
 
-2. Add a record 
+# 2. Add a record 
 
 db.things.insert({"Name": "sidddhant", "Address": "Pune", "City": "Pune"})
 
@@ -46,7 +46,7 @@ september" : "Ksarnataka" }515aabe777b7a6252"), "month" : "septembser", "company
 { "_id" : ObjectId("5e1d7bb239000a2de249180d"), "Name" : "sidddhant", "Address" : "Pune", "City" : "Pune" }
 
 
-3. If we want to add extra field on the fly. That's the power of mongodb because in relational database you have to define it first in your table
+# 3. If we want to add extra field on the fly. That's the power of mongodb because in relational database you have to define it first in your table
 
 
  db.things.insert([{"Name": "Karan", "Age": 20}, {"Name": "Akash", "Age": 23, "College": "Ait"}]);
