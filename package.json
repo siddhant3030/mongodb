@@ -1,0 +1,13 @@
+{
+  "name": "cli-tool-nosql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin":"./cli.js",
+  "author": "siddhant",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^4.1.0",
+    "inquirer": "^7.0.3"
+  }
+  
+}
